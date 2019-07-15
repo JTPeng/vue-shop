@@ -1,14 +1,16 @@
 <template>
-  <div id="app">
-    你好啊
+  <div>
     <FooterGuide/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import FooterGuide from './components/FooterGuide/FooterGuide.vue';
+// 引入组件
+import FooterGuide from './components/FooterGuide';
 export default {
   name: "App",
+  // 注册组件
   components: {
     FooterGuide
   }

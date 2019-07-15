@@ -1,6 +1,6 @@
 <template>
 	<div>
-		底部
+		Profile
 	</div>
 </template>
 
