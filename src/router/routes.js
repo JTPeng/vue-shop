@@ -3,23 +3,39 @@ import MSite from '../pages/MSite';
 import Order from '../pages/Order';
 import Search from '../pages/Search';
 import Profile from '../pages/Profile';
-
+import Login from '../pages/Login';
 export default [
 	{
 		path:'/msite',
-		component:MSite
+		component:MSite,
+		meta:{
+			isShowFooter:true
+		}
 	},
 	{
 		path:'/order',
-		component:Order
+		component:Order,
+		meta:{
+			isShowFooter:true
+		}
 	},
 	{
 		path:'/search',
-		component:Search
+		component:Search,
+		meta:{
+			isShowFooter:true
+		}
 	},
 	{
 		path:'/profile',
-		component:Profile
+		component:Profile,
+		meta:{
+			isShowFooter:true
+		}
+	},
+	{
+		path:'/login',
+		component:Login
 	},
 	{
 		path:'',
