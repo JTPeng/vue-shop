@@ -18,7 +18,7 @@ export default {
     FooterGuide
   },
   async mounted() {
-    const result = await reqAddress("116.36867","40.10038");
+    const result = await reqAddress("113.83786","22.62601");
     console.log("result :", result);
     const result1 = await reqCategories();
     console.log("result1 :", result1);

@@ -52,7 +52,6 @@ export default {
   methods: {
     goTo(path) {
       this.$router.replace(path);
-      console.log(this.$router);
     }
   }
 };
